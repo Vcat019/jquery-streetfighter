@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	playTheme()
 $('.ryu').mouseenter(function() {
 	$('.ryu-still').hide();
 	$('.ryu-ready').show();
@@ -43,4 +44,9 @@ function playHadouken () {
 	$('#hadouken-sound')[0].volume=0.5;
 	$('#hadouken-sound')[0].load();
 	$('#hadouken-sound')[0].play();
+}
+function playTheme () {
+	$('#theme-song')[0].volume=0.5;
+	$('#theme-song')[0].load();
+	$('#theme-song')[0].play();
 }

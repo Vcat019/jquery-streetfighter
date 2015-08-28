@@ -49,3 +49,26 @@ z-index: 1;
 	background-image: url('../images/ryu-cool.gif');
 	display: none;
 }
+.how-to p + p {
+margin-left: 275px;
+}
+.content  {
+	position: absolute;
+	height: 425px;
+	left: 650px;
+	padding-top: 75px;
+}
+.how-to p {
+	width:50%;
+	color: black;
+	font-size: 24px;
+	line-height: 45px;
+}
+.ryu-container, .ryu {
+	float: left;
+}
+.how-to {
+	font-family: 'Shadows into light', cursive;
+	width: 600px;
+	font-size: 50px;
+}
